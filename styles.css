@@ -1,0 +1,55 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+    background-color: #EAEDED;
+}
+
+.center{
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+.flex{
+    display: flex;
+}
+/*Fim bosst css*/
+
+header{
+    background-color: #131921;
+    color: white;
+    padding: 10px 0;
+}
+.logo{
+    width: 100px;
+    height: auto;
+
+}
+
+.input-search{
+    width: 70%;
+    display: flex;
+}
+
+.input-search form{
+    display: flex;
+    width: 100%;
+}
+
+.input-search input[type=text]{
+    width: calc(100% -40px);
+    height: 40px;
+
+}
+
+.input-search button{
+    width: 40px;
+    border: 0;
+    height: 40px;
+    background-color: #F3A847;
+}
